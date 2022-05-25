@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println("Here you see list of the exercises.");
 
-        for (int i = 1; i < 41; i++) {
+        for (int i = 1; i < 42; i++) {
             System.out.println("2." + i);
         }
 

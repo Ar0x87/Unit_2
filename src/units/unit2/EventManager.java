@@ -41,7 +41,7 @@ public class EventManager {
 
             translated = Integer.parseInt(thing);
 
-            if (!((translated > 0) && (translated < 41))) {
+            if (!((translated > 0) && (translated < 42))) {
                 translated = -1;
             }
 
