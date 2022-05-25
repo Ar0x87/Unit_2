@@ -12,7 +12,7 @@ public class Exercise40 implements Task{
     }
 
     public void writer() {
-        System.out.println(execution(x));
+        System.out.println(x +execution(x));
     }
 }
 
