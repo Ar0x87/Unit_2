@@ -47,6 +47,7 @@ public class ExercisesCollectionOperator {
         Enlist.add(36,new  Exercise37());
         Enlist.add(37,new  Exercise38());
         Enlist.add(38,new  Exercise39());
+        Enlist.add(39,new  Exercise40());
     }
 
 
