@@ -15,4 +15,4 @@ public class Exercise40 implements Task{
         System.out.println(execution(x));
     }
 }
-}
+
