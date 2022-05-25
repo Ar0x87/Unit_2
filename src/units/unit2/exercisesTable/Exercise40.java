@@ -1,18 +1,26 @@
 package units.unit2.exercisesTable;
-
-//reference to 6.7
+//reference to 7.6
 public class Exercise40 implements Task{
-    protected int x = -10000 + (int) (Math.random() * 20000);
 
-    private int execution(int i){
-        if (Math.abs(i) > 99 && i > 0){
-            i = i - 1;
+    protected int first = (int) (Math.random() * 1000);
+    protected int second = (int) (Math.random() * 1000);
+    String res;
+
+    private String WhichOne(int x, int y) {
+        if (x == y) {
+            res = "Numbers are equal";
+        } else {
+            if (x > y) {
+                res = "First number is bigger";
+            }
+            if (x < y) {
+                res = "First number is smaller";
+            }
         }
-        return i;
+        return res;
     }
 
     public void writer() {
-        System.out.println(x +" " +execution(x));
+        System.out.println(WhichOne(first, second));
     }
 }
-
