@@ -1,4 +1,5 @@
 package units.unit2.exercisesTable;
+
 //reference to 6.7
 public class Exercise40 implements Task{
     protected int x = -10000 + (int) (Math.random() * 20000);
@@ -7,10 +8,11 @@ public class Exercise40 implements Task{
         if (Math.abs(i) > 99 && i > 0){
             i = i - 1;
         }
-    return i;
+        return i;
     }
 
     public void writer() {
-       System.out.println(execution(x));
+        System.out.println(execution(x));
     }
+}
 }
