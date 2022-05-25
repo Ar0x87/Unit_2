@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class ExercisesCollectionOperator {
 
-    Vector<Task> Enlist = new Vector<>(38);
+    Vector<Task> Enlist = new Vector<>(39);
 
     public ExercisesCollectionOperator() {
         Enlist.add(0, new   Exercise1());
@@ -47,6 +47,7 @@ public class ExercisesCollectionOperator {
         Enlist.add(36,new  Exercise37());
         Enlist.add(37,new  Exercise38());
         Enlist.add(38,new  Exercise39());
+        Enlist.add(39,new  Exercise40());
     }
 
 
